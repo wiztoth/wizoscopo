@@ -19,7 +19,7 @@
     "sass": "^1.41.0",
     "sass-loader": "^10.1.1",
     "stylus": "^0.55.0",
-    "stylus-loader": "^6.1.0",
+    "stylus-loader": "^5.0.0",
     "v-switch-case": "^1.0.3",
     "vue-particles-generator": "^1.0.3",
     "vuetify": "^2.5.9",
