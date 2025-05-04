@@ -12,7 +12,7 @@
           <h4 class="flex justify-center">{{ this.$store.state.choice.display_sign }} </h4><br>
           <p v-if="this.astrologer == true" class="message">
             
-          valido dal {{ json.start_date }} al {{ json.end_date }}<br><br>
+            Horoscope Period : {{ json.prediction_period }}  <br><br>
            
 
               
@@ -26,7 +26,7 @@
 
            <p v-if="this.astrologer == false" class="message">
             
-          Valido da {{ json.start_date }} a {{ json.end_date }}<br><br>
+          Horoscope Period : {{ json.prediction_period }}  <br><br>
            
 
               
@@ -55,7 +55,7 @@
       
        <div class="flex justify-center" v-case="1" >
         <div>
-          <h4 class="flex justify-center">Il cielo è un po' offuscato..</h4><br>
+          <h4 class="flex justify-center">Clouded sky tonight... try again </h4><br>
           <p class="message">
             
             {{ this.$store.state.choice.display_sign }} 
@@ -87,7 +87,7 @@
             shadow
           "
         >
-          Vuoi riprovare?
+          Try again ?
         </button></nuxt-link
       >
     </div>
@@ -132,8 +132,8 @@ export default {
   
     
       var url=
-      "https://foxapi.vercel.app/api/horoscope?sign=" +
-      store.state.choice.sign+'&astrologer=brezsny';
+      "https://wizapi.vercel.app/api/horoscope?sign=" +
+      store.state.choice.sign;
 
 
     json = await $axios.$get(url);

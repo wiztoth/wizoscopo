@@ -19,7 +19,7 @@
             "
             @click="nextPage"
           >
-            Iniziamo!
+            Let's Start!
           </button></nuxt-link
         >
       </div>
@@ -43,7 +43,7 @@
           "
           @click="addValue_one"
         >
-          Si
+          Yes
         </button>
         <button
           class="
@@ -84,7 +84,7 @@
             "
             @click="addValue_two"
           >
-            Si
+            Yes
           </button>
           <button
             class="
@@ -123,7 +123,7 @@
             "
             @click="addValue_three"
           >
-            Si
+            Yes
           </button>
           <button
             class="
@@ -222,7 +222,7 @@ export default {
 
 font-family: 'Ovo', serif;
 text-align: center;
-font-size: 15px;
+font-Yesze: 15px;
 margin: 5px;
 font-style: italic;
 

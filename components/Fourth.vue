@@ -1,28 +1,28 @@
 <template>
   <div class="flex justify-center space-x-2">
     <table>
-         <tr> <td>  <h4 class="flex justify-center" > Ancora un piccolo sforzo!</h4> </td></tr><br>
+         <tr> <td>  <h4 class="flex justify-center" > Just a little more effort </h4> </td></tr><br>
        <tr>
-        <td><p class="emoji">&#9808; Sagittario </p> </td>
+        <td><p class="emoji">&#9808; Sagittarius </p> </td>
       </tr>
       <tr>
-        <td><p class="emoji">&#9810; Acquario </p>  </td>
+        <td><p class="emoji">&#9810; Aquarius </p>  </td>
       </tr>
       <tr>
-        <td><p class="emoji">&#9807; Scorpione </p>  </td>
+        <td><p class="emoji">&#9807; Scorpio </p>  </td>
       </tr>
       <tr>
-        <td><p class="emoji">&#9811; Pesci </p>  </td>
+        <td><p class="emoji">&#9811; Pisces </p>  </td>
       </tr>
     
       <tr>
-        <td><p class="emoji">&#9809; Capricorno </p> </td>
+        <td><p class="emoji">&#9809; Capricorn </p> </td>
       </tr>
       <br />
                <p class=" pt-4 text-gray-800 border-t border-dashed"></p>
 
       <tr>
-        <td><p class="flex justify-center">Ormai ci siamo.. il tuo segno è tra questi? </p></td>
+        <td><p class="flex justify-center">Here we are, do you see your zodiac sign here?</p></td>
         <td></td>
       </tr>
      
@@ -47,7 +47,7 @@
             "
             @click="addValue_fourth"
           >
-            Si
+            Yes
           </button> </nuxt-link>
            <nuxt-link to="/magic">
           <button
