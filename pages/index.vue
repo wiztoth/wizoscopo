@@ -211,6 +211,9 @@ export default {
     },
      
   },
+  build: {
+    webpack5: true,
+  },
 };
 </script>
 

@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "vue-particles": "^1.0.9",
-    "webpack": "^4.46.0"
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12"
   }
 }
