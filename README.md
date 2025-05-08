@@ -3,10 +3,10 @@
 ## Build Setup 🛠️
 
 ```bash
-# installa le dipendenze
+# install dependencies
 $ npm install
 
-# avvia il server di sviluppo
+# start the development server
 $ npm run dev
 
 # build for production and launch server
